@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
-    <body data-spy="scroll" data-target="#site-nav">
+    <body data-spy="scroll" data-target="#site-nav" class="">
         <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
             <div class="container">
                 <div class="navbar-header">
@@ -19,7 +19,7 @@
                         <a class="logo" href="index.html">
                             <!-- logo image  -->
                             <img src="assets/images/logo.png" alt="Logo">
-                            Conference 2015
+                            Geekcamp.MY 2016
                         </a>
                     </div>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
@@ -43,14 +43,14 @@
                             <a data-scroll href="#schedule">Schedule</a>
                         </li>                         
                         <li>
-                            <a data-scroll href="#partner">Partner</a>
+                            <a data-scroll href="#partner">Sponsors</a>
                         </li>                         
                         <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
-                        <li>
+                        <li class="hidden">
                             <a data-scroll href="#faq">FAQ</a>
                         </li>
                         <li>
-                            <a data-scroll href="#photos">Photos</a>
+                            <a data-scroll href="#photos" class="hidden">Photos</a>
                         </li>
                     </ul>
                 </div>
@@ -62,7 +62,8 @@
                 <h2>19 March, 2016 / Makespace</h2>
                 <h1>geekcamp.my 2016</h1>
                 <p>Geekcamp is an unconference geared towards geeks and all things technical. The idea is to share knowledge and to learn from others in the industry.<br></p>
-                <a class="btn btn-white" data-scroll="" href="#registration">Register Now</a>
+                <a class="btn btn-white" href="http://peatix.com/event/141005">Get Tickets</a>
+                <a class="btn btn-white" href="#speakers">Be a Presenter</a>
             </div>
         </header>
         <section id="about" class="section about">
@@ -70,7 +71,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <h3 class="section-title">About Us</h3>
-                        <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
+                        <p>We're a group of techies of various backgrounds and interests, in the field of hardware, software, enterprise, mobile and startups. Our common interests revolve around providing the community a platform to meet, share and learn from each other.&nbsp;</p>
                         <figure>
                             <img alt="" class="img-responsive" src="assets/images/about-us.jpg">
                         </figure>
@@ -78,12 +79,18 @@
                     <!-- /.col-sm-6 -->
                     <div class="col-sm-6">
                         <h3 class="section-title multiple-title">What is Our Goal?</h3>
-                        <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
+                        <p>This conference aims to provide a platform for sharing and networking. Topics must be technical but can be in one of many fields:</p>
                         <ul class="list-arrow-right">
-                            <li>Learn from the best Asian Social Media Experts &amp; Case Studies</li>
-                            <li>Have dedicated 2-to-1 meetings with the experts</li>
-                            <li>Reach more consumers for less by learning new digital media skills</li>
-                            <li>Save money when spending in online advertising</li>
+                            <li>Internet of Things (IoT) / Hardware</li>
+                            <li>Web / Mobile</li>
+                            <li>Programming languages / frameworks / concepts</li>
+                            <li>&nbsp;DevOps / Automation / SaaS / PaaS / IaaS</li>
+                            <li>Scaling Applications / Architecture</li>
+                            <li>Software Engineering &amp; Organizational Practices
+                                <br>
+                            </li>
+                            <li>Big Data / Analytics</li>
+                            <li>What ever is cutting edge!</li>
                         </ul>
                     </div>
                     <!-- /.col-sm-6 -->
@@ -117,6 +124,7 @@
             <!-- container -->
         </section>
         <section id="speakers" class="section speakers">
+            <a name="speakers"></a>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -124,6 +132,14 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-md-12">
+                        <h4>Call for Presentations are open until 7th March 2016. If you would like to present, please propose your topic. <br></h4>
+                        <div class="text-center mt20">
+                            <a class="btn btn-black" id="cfp-btn" href="http://bit.ly/geekcampmycfp">Call for Presentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden">
                     <div class="col-md-4">
                         <div class="speaker">
                             <figure>
@@ -149,7 +165,7 @@
                         <!-- /.speaker -->
                     </div>
                     <!-- /.col-md-4 -->
-                    <div class="col-md-4">
+                    <div class="col-md-4 hidden">
                         <div class="speaker">
                             <figure>
                                 <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-2.jpg">
@@ -174,7 +190,7 @@
                         <!-- /.speaker -->
                     </div>
                     <!-- /.col-md-4 -->
-                    <div class="col-md-4">
+                    <div class="col-md-4 hidden">
                         <div class="speaker">
                             <figure>
                                 <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-3.jpg">
@@ -201,7 +217,7 @@
                     <!-- /.col-md-4 -->
                 </div>
                 <!-- /.row -->
-                <div class="row">
+                <div class="row hidden">
                     <div class="col-md-4">
                         <div class="speaker">
                             <figure>
@@ -343,7 +359,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="schedule-box">
                             <div class="time">
-                                <time datetime="09:00">09:00 am</time>                                                                                                                                 - 
+                                <time datetime="09:00">09:00 am</time>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 - 
                                 <time datetime="22:00">10:00 am</time>
                             </div>
                             <h3>Welcome and intro</h3>
@@ -353,7 +369,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="schedule-box">
                             <div class="time">
-                                <time datetime="10:00">10:00 am</time>                                                                                                                                 - 
+                                <time datetime="10:00">10:00 am</time>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 - 
                                 <time datetime="22:00">10:00 am</time>
                             </div>
                             <h3>Tips and share</h3>
@@ -363,7 +379,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="schedule-box">
                             <div class="time">
-                                <time datetime="10:00">10:00 am</time>                                                                                                                                 - 
+                                <time datetime="10:00">10:00 am</time>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 - 
                                 <time datetime="22:00">10:00 am</time>
                             </div>
                             <h3>View from the top</h3>
@@ -419,7 +435,7 @@
                     </div>
                 </div>                 
         </section>
-        <section id="faq" class="section faq">
+        <section id="faq" class="section faq hidden">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -476,7 +492,7 @@
                     </div>
                 </div>
         </section>
-        <section id="photos" class="section photos">
+        <section id="photos" class="section photos hidden">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
