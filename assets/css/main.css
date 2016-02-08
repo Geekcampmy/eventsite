@@ -460,7 +460,8 @@ ul li
     .navbar-custom
     {
         background-color: transparent;
-        padding-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .site-branding
     {
@@ -583,13 +584,14 @@ ul li
 .partner .partner-box
 {
     display: block;
-    opacity: 0.3;
+    opacity: 1;
     height: 150px;
     width: 150px;
     margin: 25px auto;
     -webkit-transition: 0.5s all linear;
     transition: 0.5s all linear;
 }
+
 
 .partner .partner-box:hover
 {
@@ -598,12 +600,15 @@ ul li
 
 .partner .partner-box-1
 {
-    background: url(../images/partner/partner-1.png) no-repeat center center/contain;
+    background: no-repeat center center/contain;
+    background-image: url('../images/makespace-logo.png');
+    background-color: #000000;
 }
 
 .partner .partner-box-2
 {
     background: url(../images/partner/partner-2.png) no-repeat center center/contain;
+    background-image: url('../images/myburgerlab.jpg');
 }
 
 .partner .partner-box-3
