@@ -329,7 +329,7 @@
                                 <tr ng-repeat="slots in scheduler.slots">
                                     <th>{{slots.timeslot}}</th>
                                     <td>{{slots.title}}</td>
-                                    <td>{{slots.speaker}}</td>
+                                    <td><a href="{{slots.speakerUrl}}" target="_blank">{{slots.speaker}}</a></td>
                                 </tr>
                             </tbody>
                         </table>
