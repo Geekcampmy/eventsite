@@ -5,19 +5,19 @@ angular.module('geekcampmy2016', []).controller('ScheduleController', function (
     //even if there is no value. One curly bracket row is one table row...
     var track1schedule = [
         {timeslot: "8 a.m.", speaker: "", title: "Registration & Networking"},
-        {timeslot: "9 a.m.", speaker: "Kevin Tan", speakerUrl:"https://about.me/kevintanhongann", title: " "},
+        {timeslot: "9 a.m.", speaker: "Kevin Tan", speakerUrl:"https://about.me/kevintanhongann", title: "TBA"},
         {timeslot: "10 a.m.",
          speaker: "Ruben Tan",
-         speakerDesc:"Ruben Tan lived through the dark ages of Javascript and is currently a co-founder and primary custodian of the Javascript Developers Malaysia user group. Ex-CTO of Bookya, he is currently figuring out how to upload his consciousness into a robot to live forever.",
-         title: " "},
-        {timeslot: "11 a.m.", speaker: "Khairil Yusof", speakerUrl:"http://sinarproject.org/en/about/team", title: " "},
-        {timeslot: "12 p.m.", speaker: "4", title: "4"},
+         speakerDesc: "Ruben Tan lived through the dark ages of Javascript and is currently a co-founder and primary custodian of the Javascript Developers Malaysia user group. Ex-CTO of Bookya, he is currently figuring out how to upload his consciousness into a robot to live forever.",
+         title: "TBA"},
+        {timeslot: "11 a.m.", speaker: "Khairil Yusof", speakerUrl:"http://sinarproject.org/en/about/team", title: "TBA"},
+        {timeslot: "12 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
         {timeslot: "1 p.m.", speaker: "", title: "Lunch break & Networking"},
-        {timeslot: "2 p.m.", speaker: "5", title: "5"},
-        {timeslot: "3 p.m.", speaker: "6", title: "6"},
+        {timeslot: "2 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
+        {timeslot: "3 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
         {timeslot: "4 p.m.", speaker: "", title: "Tea Break & Networking"},
-        {timeslot: "5 p.m.", speaker: "7", title: "7"},
-        {timeslot: "6 p.m.", speaker: "8", title: "8"}
+        {timeslot: "5 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
+        {timeslot: "6 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"}
     ];
     
     scheduler.slots = track1schedule; //Load by default the track 1 schedule.
@@ -31,16 +31,16 @@ angular.module('geekcampmy2016', []).controller('ScheduleController', function (
     //even if there is no value. One curly bracket row equals one table row..
         scheduler.slots = [
             {timeslot: "8 a.m.", speaker: "", title: "Registration & Networking"},
-            {timeslot: "9 a.m.", speaker: "1", title: "1"},
-            {timeslot: "10 a.m.", speaker: "2", title: "2"},
-            {timeslot: "11 a.m.", speaker: "3", title: "3"},
-            {timeslot: "12 p.m.", speaker: "4", title: "4"},
+            {timeslot: "9 a.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
+            {timeslot: "10 a.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
+            {timeslot: "11 a.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
+            {timeslot: "12 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
             {timeslot: "1 p.m.", speaker: "", title: "Lunch break & Networking"},
-            {timeslot: "2 p.m.", speaker: "5", title: "5"},
-            {timeslot: "3 p.m.", speaker: "6", title: "6"},
+            {timeslot: "2 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
+            {timeslot: "3 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
             {timeslot: "4 p.m.", speaker: "", title: "Tea Break & Networking"},
-            {timeslot: "5 p.m.", speaker: "7", title: "7"},
-            {timeslot: "6 p.m.", speaker: "8", title: "8"}
+            {timeslot: "5 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
+            {timeslot: "6 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"}
         ];
     };
     
