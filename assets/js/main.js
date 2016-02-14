@@ -8,6 +8,7 @@ $(window).scroll(function(){
 
 $(window).load(function(){
 	handleTopNavAnimation();
+    $('[data-toggle="popover"]').popover();
 });
 
 function handleTopNavAnimation() {

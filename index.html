@@ -329,8 +329,7 @@
                                 <tr ng-repeat="slots in scheduler.slots">
                                     <th>{{slots.timeslot}}</th>
                                     <td>{{slots.title}}</td>
-                                    <td ng-if="slots.speakerUrl"><a href="{{slots.speakerUrl}}" target="_blank">{{slots.speaker}}</a></td>
-                                    <td ng-if="slots.speakerDesc"><a href="#" data-placement="bottom" data-toggle="popover" data-content="{{slots.speakerDesc}}" type="button">{{slots.speaker}}</a></td>
+                                    <td><a href="{{slots.speakerUrl}}" target="_blank" data-placement="right" data-trigger="hover" data-container="body" data-toggle="popover" data-content="{{slots.speakerDesc}}" type="button" style="cursor: pointer;">{{slots.speaker}}</a></td>
                                 </tr>
                             </tbody>
                         </table>
