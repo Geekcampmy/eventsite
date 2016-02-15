@@ -3,7 +3,7 @@
 *
 * Description
 */
-angular.module('geekcampmy2016', []).controller('SpeakerInfoController', function(){
+geekcampmy2016.controller('SpeakerInfoController', function(){
 	var speakerInfo = this;
 
 	speakerInfo.speakers = [

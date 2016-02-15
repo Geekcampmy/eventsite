@@ -1,4 +1,6 @@
-angular.module('geekcampmy2016', []).controller('ScheduleController', function () {
+var geekcampmy2016 = angular.module('geekcampmy2016', [])
+
+geekcampmy2016.controller('ScheduleController', function () {
     var scheduler = this;
     
     //Guys, please fill out the proper track 1 schedule here. Note the field names have to be intact,
