@@ -141,8 +141,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" ng-controller="SpeakerInfoController as speakerInfo">
-                    <div class="col-md-4" ng-repeat="speakers in speakerInfo.speakers">
+                <br/>
+                <div class="row speakerRow" ng-controller="SpeakerInfoController as speakerInfo">
+                    <div class="col-md-4 speakerCell" ng-repeat="speakers in speakerInfo.speakers">
                         <div class="speaker">
                             <figure>
                                 <img alt="" class="img-responsive center-block" src="{{speakers.picture}}" style="width: 300px; height: 300px;">

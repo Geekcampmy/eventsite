@@ -9,6 +9,9 @@ $(window).scroll(function(){
 $(window).load(function(){
 	handleTopNavAnimation();
     $('[data-toggle="popover"]').popover();
+
+    // $(".speakerRow > .speakerCell:nth-child(1)").before('<div class="row">');
+    $(".speakerRow > .speakerCell:nth-child(3n)").append('<br/>');
 });
 
 function handleTopNavAnimation() {
