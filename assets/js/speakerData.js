@@ -12,7 +12,8 @@ geekcampmy2016.controller('SpeakerInfoController', function(){
 		{name: "Khairil Yusof", picture: "https://farm8.staticflickr.com/7261/7606252186_96900955b6.jpg", position: "Coordinator, Sinar Project", website: "http://sinarproject.org/en/about/team"},
 		{name: "Ng Boo Jiun", picture: "https://upload.wikimedia.org/wikipedia/commons/1/14/Lightsaber,_silver_hilt,_blue_blade.png", position: "One of Golang Facebook group administrators.", website: "https://socketloop.com/"}
 		{name: "Micheal Leow", picture: "https://farm9.staticflickr.com/8739/17009459621_2bca81ca47.jpg", position: "Freedom of Information Initiatives", website: "http://sinarproject.org/en/about/team"},
-		{name: "Chow Chee Leong", picture: "https://avatars3.githubusercontent.com/u/411259?v=3&s=460", position: "Software Developer", website: "https://github.com/klrkdekira"},
-		{name: "Izhar Firdaus", picture: "https://scontent-sin1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/14185_10152602729699133_323077790288306727_n.jpg?oh=e70020a41a6355a006d625131bb52eb1&oe=5727F571", position: "yet-another-opensource-geek", website: "https://www.linkedin.com/in/kagesenshi"}
+		{name: "Chow Chee Leong", picture: "https://avatars3.githubusercontent.com/u/411259?v=3&s=460", position: "Software Developer", website: "https://github.com/klrkdekira"}
+
+		//{name: "Izhar Firdaus", picture: "https://scontent-sin1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/14185_10152602729699133_323077790288306727_n.jpg?oh=e70020a41a6355a006d625131bb52eb1&oe=5727F571", position: "yet-another-opensource-geek", website: "https://www.linkedin.com/in/kagesenshi"} he might clash with other event
 	];
 });
