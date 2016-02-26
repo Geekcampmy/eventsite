@@ -533,6 +533,10 @@ ul li
     opacity: .7;
 }
 
+.speakerCell {
+    height: 500px !important;
+}
+
 /* 
  * 6.4 Section: Registration & Pricing
  */

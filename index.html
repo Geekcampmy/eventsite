@@ -145,12 +145,12 @@
                 <div class="row speakerRow" ng-controller="SpeakerInfoController as speakerInfo">
                     <div class="col-md-4 speakerCell" ng-repeat="speakers in speakerInfo.speakers">
                         <div class="speaker">
-                            <figure>
+                            <figure ng-if="speakers.picture">
                                 <img alt="" class="img-responsive center-block" src="{{speakers.picture}}" style="width: 300px; height: 300px;">
                             </figure>
                             <h4>{{speakers.name}}</h4>
                             <p>{{speakers.position}}</p>
-                            <p ng-if="speakers.speechtitle">{{speakers.speechtitle}}</p>
+                            <p ng-if="speakers.speechtitle"><em><b>Topic: &quot;{{speakers.speechtitle}}&quot;</b></em></p>
                             <ul class="social-block">
                                 <li ng-if="speakers.description">
                                     <span data-placement="bottom" data-trigger="hover" data-container="body" data-toggle="popover" data-content="{{speakers.description}}" type="button" style="cursor: pointer;"><i class="glyphicon glyphicon-info-sign"></i></span>
