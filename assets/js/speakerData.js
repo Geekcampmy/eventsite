@@ -15,7 +15,9 @@ geekcampmy2016.controller('SpeakerInfoController', function(){
 		{name: "Chow Chee Leong", picture: "https://avatars3.githubusercontent.com/u/411259?v=3&s=460", position: "Software Developer", website: "https://github.com/klrkdekira"},
 		{name: "Stan Feldman", picture: "http://www.geekcamp.my/assets/images/speakers/stan-01.png", position: "Founder of LinkedChat and Senior Mobile Developer at VLT", website: "http://vltlabs.com/"},
 		{name: "Akmal Fikri Abdul Rahman", picture: "http://www.geekcamp.my/assets/images/speakers/akmal-fikri.jpg", position: "COO at ABSOFT PLT", website: "https://www.linkedin.com/in/akmalfikri"},
-		{name: "Leong Hean Hong", picture: "http://www.geekcamp.my/assets/images/speakers/brown_shirt.png", position: "Technopreneur, Engineer, Geek", website: "http://www.mrleong.net"}
+		{name: "Leong Hean Hong", picture: "http://www.geekcamp.my/assets/images/speakers/brown_shirt.png", position: "Technopreneur, Engineer, Geek", website: "http://www.mrleong.net"},
+                {name: "Stanley Seow", picture: "http://www.geekcamp.my/assets/images/speakers/Stanley-A4G 2015.jpg", position: "9W2SVT", website: "http://arduino-for-beginners.blogspot.my/"},
+                {name: "Chua Chee Seng", picture: "http://www.geekcamp.my/assets/images/speakers/cheeseng.jpg", position: " Scala Developer", website: "https://www.linkedin.com/in/chuacheeseng", description:"Founder of AmaSeng Software Sdn. Bhd. Founder of Scala User Group Malaysia. Active Contributor of ScalaTest (https://github.com/scalatest/scalatest) since 2011."},
 
 		//{name: "Izhar Firdaus", picture: "https://scontent-sin1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/14185_10152602729699133_323077790288306727_n.jpg?oh=e70020a41a6355a006d625131bb52eb1&oe=5727F571", position: "yet-another-opensource-geek", website: "https://www.linkedin.com/in/kagesenshi"} he might clash with other event
 	];
