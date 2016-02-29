@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:image" content="http://www.geekcamp.my/assets/images/geekcamplogo_big.png" />
         <title>Geekcamp.MY 2016</title>
         <script src="bower_components/angular/angular.min.js"></script>
         <!-- css -->
@@ -141,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <br/>
+                <br />
                 <div class="row speakerRow" ng-controller="SpeakerInfoController as speakerInfo">
                     <div class="col-md-4 speakerCell" ng-repeat="speakers in speakerInfo.speakers">
                         <div class="speaker">
@@ -217,7 +218,9 @@
                                 <tr ng-repeat="slots in scheduler.slots">
                                     <th>{{slots.timeslot}}</th>
                                     <td>{{slots.title}}</td>
-                                    <td><a href="{{slots.speakerUrl}}" target="_blank" data-placement="right" data-trigger="hover" data-container="body" data-toggle="popover" data-content="{{slots.speakerDesc}}" type="button" style="cursor: pointer;">{{slots.speaker}}</a></td>
+                                    <td>
+                                        <a href="{{slots.speakerUrl}}" target="_blank" data-placement="right" data-trigger="hover" data-container="body" data-toggle="popover" data-content="{{slots.speakerDesc}}" type="button" style="cursor: pointer;">{{slots.speaker}}</a>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -227,7 +230,8 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="schedule-box">
                             <div class="time">
-                                <time datetime="09:00">09:00 am</time> - <time datetime="22:00">10:00 am</time>
+                                <time datetime="09:00">09:00 am</time>                                                                 - 
+                                <time datetime="22:00">10:00 am</time>
                             </div>
                             <h3>Welcome and intro</h3>
                             <p>Mustafizur Khan, SD Asia</p>
@@ -236,7 +240,8 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="schedule-box">
                             <div class="time">
-                                <time datetime="10:00">10:00 am</time> - <time datetime="22:00">10:00 am</time>
+                                <time datetime="10:00">10:00 am</time>                                                                 - 
+                                <time datetime="22:00">10:00 am</time>
                             </div>
                             <h3>Tips and share</h3>
                             <p>Mustafizur Khan, SD Asia</p>
@@ -245,7 +250,8 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="schedule-box">
                             <div class="time">
-                                <time datetime="10:00">10:00 am</time> - <time datetime="22:00">10:00 am</time>
+                                <time datetime="10:00">10:00 am</time>                                                                 - 
+                                <time datetime="22:00">10:00 am</time>
                             </div>
                             <h3>View from the top</h3>
                             <p>Mustafizur Khan, SD Asia</p>
