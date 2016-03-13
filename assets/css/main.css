@@ -533,7 +533,8 @@ ul li
     opacity: .7;
 }
 
-.speakerCell {
+.speakerCell
+{
     height: 500px !important;
 }
 
@@ -589,20 +590,19 @@ ul li
 {
     display: block;
     opacity: 1;
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     margin: 25px auto;
     -webkit-transition: 0.5s all linear;
     transition: 0.5s all linear;
 }
-
 
 .partner .partner-box:hover
 {
     opacity: 1;
 }
 
-.partner .partner-box-1
+.partner .partner-box-venue
 {
     background: no-repeat center center/contain;
     background-image: url('../images/makespace-logo.png');
@@ -611,23 +611,25 @@ ul li
 
 .partner .partner-box-2
 {
-    background: url(../images/partner/partner-2.png) no-repeat center center/contain;
+    background: no-repeat center center/contain;
     background-image: url('../images/myburgerlab.jpg');
 }
 
-.partner .partner-box-3
+.partner .partner-box-nintex
 {
-    background: url(../images/partner/partner-3.png) no-repeat center center/contain;
+    background-color: #ffffff;
+    background: url(../images/partner/nintex.png) no-repeat center center/contain;
 }
 
-.partner .partner-box-4
+.partner .partner-box-seek
 {
-    background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+    background: url(../images/partner/seekasia.jpg) no-repeat center center/contain;
+    background-color: #ffffff;
 }
 
-.partner .partner-box-5
+.partner .partner-box-swift
 {
-    background: url(../images/partner/partner-5.png) no-repeat center center/contain;
+    background: url(../images/partner/swift.jpg) no-repeat center center/contain;
 }
 
 .partner .partner-box-6
