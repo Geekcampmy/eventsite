@@ -7,7 +7,7 @@ geekcampmy2016.controller('SpeakerInfoController', function(){
 	var speakerInfo = this;
 
 	speakerInfo.speakers = [
-		{name: "Fabian Chan", picture: "http://www.geekcamp.my/assets/images/speakers/fabian.jpg", position: "Research Manager at SEEK Asia", website: "https://www.linkedin.com/in/fabian-chan-a5764768", speechtitle:"TBD"},
+		{name: "Fabian Chan", picture: "http://www.geekcamp.my/assets/images/speakers/fabian.jpg", position: "Research Manager at SEEK Asia", website: "https://www.linkedin.com/in/fabian-chan-a5764768", speechtitle:"Self evolving solutions: Let AI code for you"},
 		{name: "Kevin H. A. Tan", picture: "https://media.licdn.com/media/AAEAAQAAAAAAAAVhAAAAJDljNDVlZGM2LWZhMzAtNDZjNS04ZmVkLWEzYmM5NDM5ZDA5Yw.jpg", position: "Android Developer", website: "https://about.me/kevintanhongann", speechtitle:"Groovy and Android (as of 2016)"},
 		{name: "Ruben Tan", picture: "https://media.licdn.com/media/p/1/000/125/353/3fa8e21.jpg", position: "Co-Founder, Javascript Developers Malaysia", description: "Ruben Tan lived through the dark ages of Javascript and is currently a co-founder and primary custodian of the Javascript Developers Malaysia user group. Ex-CTO of Bookya, he is currently figuring out how to upload his consciousness into a robot to live forever.", speechtitle: "Consensus in Distributed Computing"},
 		{name: "Khairil Yusof", picture: "https://farm8.staticflickr.com/7261/7606252186_96900955b6.jpg", position: "Coordinator, Sinar Project", website: "http://sinarproject.org/en/about/team", speechtitle: "Debugging & Hacking Democracy"},
