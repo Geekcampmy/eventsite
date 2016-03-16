@@ -216,7 +216,10 @@
                             <tbody>
                                 <tr ng-repeat="slots in scheduler.slots">
                                     <th>{{slots.timeslot}}</th>
-                                    <td>{{slots.title}}</td>
+                                    <td>
+                                    <b ng-if="$index == 0 || $index == 4"><em>{{slots.title}}</em></b>
+                                    <span ng-if="$index != 0 && $index != 4">{{slots.title}}</span>
+                                    </td>
                                     <td>
                                         <a href="{{slots.speakerUrl}}" target="_blank" data-placement="right" data-trigger="hover" data-container="body" data-toggle="popover" data-content="{{slots.speakerDesc}}" type="button" style="cursor: pointer;">{{slots.speaker}}</a>
                                     </td>
@@ -408,6 +411,7 @@
             </div>
         </footer>
         <!-- script -->
+        <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="bower_components/smooth-scroll/smooth-scroll.min.js"></script>

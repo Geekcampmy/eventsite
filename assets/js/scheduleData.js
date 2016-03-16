@@ -6,17 +6,15 @@ geekcampmy2016.controller('ScheduleController', function () {
     //Guys, please fill out the proper track 1 schedule here. Note the field names have to be intact,
     //even if there is no value. One curly bracket row is one table row...
     var track1schedule = [
-        {timeslot: "8 a.m.", speaker: " ", title: "Introductions"},
-        {timeslot: "9 a.m.", speaker: " ", title: " "},
-        {timeslot: "10 a.m.", speaker: " ", title: " "},
-        {timeslot: "11 a.m.", speaker: " ", title: " "},
-        {timeslot: "12 p.m.", speaker: " ", title: " "},
-        {timeslot: "1 p.m.", speaker: "", title: " "},
-        {timeslot: "2 p.m.", speaker: " ", title: " "},
-        {timeslot: "3 p.m.", speaker: " ", title: " "},
-        {timeslot: "4 p.m.", speaker: " ", title: "Tea Break & Networking"},
-        {timeslot: "5 p.m.", speaker: " ", title: " "},
-        {timeslot: "6 p.m.", speaker: " ", title: " "}
+        {timeslot: "9:30 a.m.", speaker: " ", title: "Introductions & Housekeeping"},
+        {timeslot: "10 a.m.", speaker: " ", title: "Sponsors' slot"},
+        {timeslot: "11 a.m.", speaker: " ", title: "Get BDD with Cucumber"},
+        {timeslot: "12 p.m.", speaker: " ", title: "Moving Learndot.com from Pet Computing to Cattle Computing"},
+        {timeslot: "1 p.m.", speaker: "", title: "Lunch & Networking"},
+        {timeslot: "2 p.m.", speaker: " ", title: "GO Serving: Building server app with Go"},
+        {timeslot: "3 p.m.", speaker: " ", title: "Building an open source APRS (ham radio) Tracker - SVTrackR"},
+        {timeslot: "4 p.m.", speaker: " ", title: "The rise of Drupal 8"},
+        {timeslot: "5 p.m.", speaker: " ", title: "Groovy and Android (as of 2016)"}
     ];
     
     scheduler.slots = track1schedule; //Load by default the track 1 schedule.
@@ -29,17 +27,15 @@ geekcampmy2016.controller('ScheduleController', function () {
     //Guys, please fill out the proper track 2 schedule here. Note the field names have to be intact,
     //even if there is no value. One curly bracket row equals one table row..
         scheduler.slots = [
-            {timeslot: "8 a.m.", speaker: "", title: "Registration & Networking"},
-            {timeslot: "9 a.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
-            {timeslot: "10 a.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
-            {timeslot: "11 a.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
-            {timeslot: "12 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
-            {timeslot: "1 p.m.", speaker: "", title: "Lunch break & Networking"},
-            {timeslot: "2 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
-            {timeslot: "3 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
-            {timeslot: "4 p.m.", speaker: "", title: "Tea Break & Networking"},
-            {timeslot: "5 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"},
-            {timeslot: "6 p.m.", speaker: "TBA", speakerUrl: "#", title: "TBA"}
+        {timeslot: "9:30 a.m.", speaker: " ", title: "Introductions & Housekeeping"},
+        {timeslot: "10 a.m.", speaker: " ", title: "Programming in Scala"},
+        {timeslot: "11 a.m.", speaker: " ", title: "Debugging & Hacking Democracy"},
+        {timeslot: "12 p.m.", speaker: " ", title: "Consensus in Distributed Computing"},
+        {timeslot: "1 p.m.", speaker: "", title: "Lunch & Networking"},
+        {timeslot: "2 p.m.", speaker: " ", title: "Golang - Optimise for developers' health and happiness"},
+        {timeslot: "3 p.m.", speaker: " ", title: "DAO? (*Docker, Ansible or Otto?)"},
+        {timeslot: "4 p.m.", speaker: " ", title: "Kotlin: what it is and why you should use it in your next Android project"},
+        {timeslot: "5 p.m.", speaker: " ", title: "Free slot, Networking, Lightning Talks :)"}
         ];
     };
     
